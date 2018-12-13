@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20181212 10:04:47.638" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
+<suite source="C:\Users\sduwai\Documents\Projects\SampleJenkinRobot\OpenGoogle.txt" id="s1" name="OpenGoogle">
+<test id="s1-t1" name="GoogleOpen">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://google.com</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20181212 10:04:48.270" level="INFO">Opening browser 'Chrome' to base url 'https://google.com'.</msg>
+<status status="PASS" endtime="20181212 10:04:55.481" starttime="20181212 10:04:48.266"></status>
+</kw>
+<status status="PASS" endtime="20181212 10:04:55.481" critical="yes" starttime="20181212 10:04:48.266"></status>
+</test>
+<status status="PASS" endtime="20181212 10:04:55.485" starttime="20181212 10:04:47.646"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="OpenGoogle" pass="1">OpenGoogle</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
