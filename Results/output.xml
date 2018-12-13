@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20181213 11:52:27.577" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
+<robot generated="20181213 11:56:17.411" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
 <suite source="C:\Users\sduwai\Documents\Projects\SampleJenkinRobot\OpenGoogle.txt" id="s1" name="OpenGoogle">
 <test id="s1-t1" name="GoogleOpen">
 <kw name="Open Browser" library="SeleniumLibrary">
@@ -8,16 +8,16 @@
 <arg>https://google.com</arg>
 <arg>Chrome</arg>
 </arguments>
-<msg timestamp="20181213 11:52:33.275" level="INFO">Opening browser 'Chrome' to base url 'https://google.com'.</msg>
-<status status="PASS" endtime="20181213 11:52:41.282" starttime="20181213 11:52:33.274"></status>
+<msg timestamp="20181213 11:56:17.684" level="INFO">Opening browser 'Chrome' to base url 'https://google.com'.</msg>
+<status status="PASS" endtime="20181213 11:56:23.151" starttime="20181213 11:56:17.684"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20181213 11:52:43.726" starttime="20181213 11:52:41.283"></status>
+<status status="PASS" endtime="20181213 11:56:25.451" starttime="20181213 11:56:23.152"></status>
 </kw>
-<status status="PASS" endtime="20181213 11:52:43.726" critical="yes" starttime="20181213 11:52:33.274"></status>
+<status status="PASS" endtime="20181213 11:56:25.451" critical="yes" starttime="20181213 11:56:17.681"></status>
 </test>
-<status status="PASS" endtime="20181213 11:52:43.727" starttime="20181213 11:52:27.582"></status>
+<status status="PASS" endtime="20181213 11:56:25.452" starttime="20181213 11:56:17.416"></status>
 </suite>
 <statistics>
 <total>
